@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    .div{
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        background-image: url("img4.jpg");
+        transition: width 3s,hight 3s , transform 2s;
+        position: relative;
+        animation-name:amlu;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate-reverse;
+    }
+    @keyframes amlu{
+        from{left:50px;top:50px;background-image: url("img5.jpg");}
+        to{left:1200px;top:500px;width: 200px;height: 200px ; border-radius: 50%;transform: rotate(360deg);}
+    }
+</style>
+</head>
+<body>
+    <div class="div">
+
+    </div>
+</body>
+</html>

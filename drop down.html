@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style type="text/css">
+    .menuiteam a{
+        background-color: blue;
+        display: block;
+        color: white;
+        padding: 10px;
+        text-decoration: none;
+        width: 50px;
+    }
+    .menuiteam a:hover{
+        background-color: red;
+    }
+    .menuiteam{
+        margin-left:70px;
+        display:none ;
+        
+    }
+    .main:hover .menuiteam
+    {
+        display: block;
+        
+    }
+    
+    </style>
+</head>
+<body>
+    <div class="main">
+        <input type="button" value="menu list" id="but">
+        <div class="menuiteam">
+        <a href="#">list 1</a>
+        <a href="#">list 2</a>
+        <a href="#">list 3</a>
+        <a href="#">list 4</a>
+        <a href="#">list 5</a>
+        <a href="#">list 6</a>
+        <a href="#">list 7</a>            
+        </div>
+    </div>
+</body>
+</html>
